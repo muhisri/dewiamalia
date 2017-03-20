@@ -4,7 +4,7 @@ using namespace std;
 
 class perpustakaan{
 public:
-	//atribute
+	//atribute	
 	string judulBuku;
 	string Pengarang;
 	//method
@@ -15,8 +15,7 @@ public:
 	return Pengarang;
 	}
 };
-void teknologi(){
-	//kategoriTeknologi
+void teknologi(){	//kategoriTeknologi
 	perpustakaan tek1;
 	perpustakaan tek2;
 	perpustakaan tek3;
@@ -26,8 +25,7 @@ void teknologi(){
 	perpustakaan tek7;
 	
 	//pengisian kategori Teknologi
-	tek1.judulBuku="Basis Data";
-	tek1.Pengarang="Fathansyah";
+	tek1.judulBuku="Basis Data";	tek1.Pengarang="Fathansyah";
 	
 	tek2.judulBuku="Jaringan Komputer";
 	tek2.Pengarang="Kholili \n	      Fatimah";
@@ -37,7 +35,6 @@ void teknologi(){
 
 	tek4.judulBuku="Teknologi Masa Depan";
 	tek4.Pengarang="Ikhwan \n	      Akhwan";
-
 	tek5.judulBuku="Design Web";
 	tek5.Pengarang="Syafii";
 
@@ -67,14 +64,14 @@ int main(){
 	cout<<"================================="<<endl;
 	cout<<"	    Data Buku Perpustakaan      "<<endl;
 	cout<<"================================="<<endl;
-	cout<<"1. Teknologi\n"
-		<<"2. Sejarah\n"
-		<<"3. Agama\n"
-		<<"4. Filsafat\n"
-		<<"5. Fiksi\n"
-		<<"6. Politik\n"
-		<<"7. Psikologi";
-	cout<<"Masukkan pilihan :\n":
+	cout<<"1. Teknologi"<<endl
+		<<"2. Sejarah"<<endl
+		<<"3. Agama"<<endl
+		<<"4. Filsafat"<<endl
+		<<"5. Fiksi"<<endl
+		<<"6. Politik"<<endl
+		<<"7. Psikologi"<<endl<<endl;
+	cout<<"Masukkan pilihan : ":
 	cin>>pilihan;
 	switch(pilihan){
 		case 1:
